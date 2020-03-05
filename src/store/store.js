@@ -59,10 +59,6 @@ export default new Vuex.Store({
             .toString();
         });
       });
-      // .then(data => {
-      //   console.log(data);
-      //   state.profile = data;
-      // });
     }
   },
 

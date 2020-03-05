@@ -15,9 +15,6 @@
         <h4>Last game</h4>
         <div>
           <p>
-            <span>
-              {{ mydata.last_match.victory ? "Victory" : "Defeat" }} –
-            </span>
             <span class="caption">
               <timeago
                 :datetime="new Date(mydata.last_match.finished * 1000)"
